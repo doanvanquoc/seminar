@@ -24,7 +24,7 @@ class MyRow extends StatelessWidget {
                 backgroundColor: Colors.pink, foregroundColor: Colors.white),
             child: const Text(
               "Nhấn đi",
-              style: TextStyle(fontSize: 20),
+              style: TextStyle(fontSize: 30),
             )),
         OutlinedButton(
             onPressed: () {},

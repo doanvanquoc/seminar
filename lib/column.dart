@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/src/widgets/framework.dart';
 import 'package:flutter/src/widgets/placeholder.dart';
-import 'package:flutter_coban/row.dart';
 
 class MyColumn extends StatelessWidget {
   const MyColumn({super.key});

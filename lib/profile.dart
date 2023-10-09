@@ -32,12 +32,12 @@ class MyWidget extends StatelessWidget {
                         style: TextStyle(
                           fontSize: 16,
                           color: Colors.black,
-                        ), // Text style
+                        ),
                       ),
                       Icon(
                         Icons.arrow_forward_ios_sharp,
                         color: Colors.black,
-                      ), // Icon style
+                      ),
                     ],
                   ),
                 ),

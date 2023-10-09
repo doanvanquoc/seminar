@@ -24,9 +24,9 @@ class MyWidget extends StatelessWidget {
                     borderRadius: BorderRadius.circular(10)),
                 child: Container(
                   padding: const EdgeInsets.all(10.0),
-                  child: const Row(
+                  child: Row(
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                    children: <Widget>[
+                    children: const <Widget>[
                       Text(
                         "Edit Mode",
                         style: TextStyle(
@@ -45,9 +45,9 @@ class MyWidget extends StatelessWidget {
             ),
           ),
           const SizedBox(height: 40),
-          const Row(
+          Row(
             mainAxisAlignment: MainAxisAlignment.start,
-            children: [
+            children: const [
               Padding(
                 padding: EdgeInsets.fromLTRB(15.0, 0, 0, 0),
                 child: Text(
@@ -65,9 +65,9 @@ class MyWidget extends StatelessWidget {
               color: Colors.white,
               borderRadius: BorderRadius.circular(10),
             ),
-            child: const Row(
+            child: Row(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
-              children: [
+              children: const [
                 Text(
                   "I'm Fut",
                   style: TextStyle(fontWeight: FontWeight.bold),
@@ -94,9 +94,9 @@ class MyWidget extends StatelessWidget {
                     borderRadius: BorderRadius.circular(10)),
                 child: Container(
                   padding: const EdgeInsets.all(10.0),
-                  child: const Row(
+                  child: Row(
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                    children: <Widget>[
+                    children: const <Widget>[
                       Text(
                         "Privacy and Terms",
                         style: TextStyle(
@@ -128,9 +128,9 @@ class MyWidget extends StatelessWidget {
                     borderRadius: BorderRadius.circular(10)),
                 child: Container(
                   padding: const EdgeInsets.all(10.0),
-                  child: const Row(
+                  child: Row(
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                    children: <Widget>[
+                    children: const <Widget>[
                       Text(
                         "LICENCE",
                         style: TextStyle(

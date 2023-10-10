@@ -5,19 +5,22 @@ class MyColumn extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Column(
-      children: [
-        ElevatedButton(
-            onPressed: () {},
-            style: ElevatedButton.styleFrom(
-                backgroundColor: Colors.pink, foregroundColor: Colors.black),
-            child: const Text("Column")),
-        ElevatedButton(
-            onPressed: () {},
-            style: ElevatedButton.styleFrom(
-                backgroundColor: Colors.pink, foregroundColor: Colors.white),
-            child: const Text("Column")),
-      ],
+    return Scaffold(
+      appBar: AppBar(title: const Text('Column page')),
+      body: Column(
+        children: [
+          ElevatedButton(
+              onPressed: () {},
+              style: ElevatedButton.styleFrom(
+                  backgroundColor: Colors.pink, foregroundColor: Colors.black),
+              child: const Text("Column")),
+          ElevatedButton(
+              onPressed: () {},
+              style: ElevatedButton.styleFrom(
+                  backgroundColor: Colors.pink, foregroundColor: Colors.white),
+              child: const Text("Column")),
+        ],
+      ),
     );
   }
 }

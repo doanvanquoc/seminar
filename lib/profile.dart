@@ -1,11 +1,14 @@
 import 'package:flutter/material.dart';
 
-class MyWidget extends StatelessWidget {
-  const MyWidget({super.key});
+class ProfileScreen extends StatelessWidget {
+  const ProfileScreen({super.key});
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: AppBar(
+        title: const Text('Profile page'),
+      ),
       backgroundColor: const Color.fromARGB(255, 210, 208, 222),
       body: Column(
         children: [
@@ -13,7 +16,9 @@ class MyWidget extends StatelessWidget {
           Padding(
             padding: const EdgeInsets.all(15.0),
             child: ElevatedButton(
-              onPressed: () {},
+              onPressed: () {
+                Navigator.pushNamed(context, '/mycolumn');
+              },
               style: ElevatedButton.styleFrom(
                 padding: EdgeInsets.zero,
                 minimumSize: const Size(double.infinity, 0),
@@ -83,7 +88,9 @@ class MyWidget extends StatelessWidget {
           Padding(
             padding: const EdgeInsets.all(15.0),
             child: ElevatedButton(
-              onPressed: () {},
+              onPressed: () {
+                Navigator.pushNamed(context, '/myrow');
+              },
               style: ElevatedButton.styleFrom(
                 padding: EdgeInsets.zero,
                 minimumSize: const Size(double.infinity, 0),

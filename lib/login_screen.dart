@@ -37,15 +37,28 @@ class LoginScreen extends StatelessWidget {
                   ),
                 ),
               ),
-              const SizedBox(height: 10),
-              ElevatedButton(
-                onPressed: () {
+              const SizedBox(height: 20),
+              GestureDetector(
+                onTap: () {
                   ScaffoldMessenger.of(context).showSnackBar(
                       const SnackBar(content: Text('Hello user')));
                   Navigator.pushNamed(context, '/profile');
                 },
-                child: const Text('Login'),
-              ),
+                child: Container(
+                  alignment: Alignment.center,
+                  padding:
+                      const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
+                  width: double.infinity,
+                  decoration: BoxDecoration(
+                    color: Colors.green,
+                    borderRadius: BorderRadius.circular(10),
+                  ),
+                  child: const Text(
+                    'Login',
+                    style: TextStyle(color: Colors.white, fontSize: 16),
+                  ),
+                ),
+              )
             ],
           ),
         ),

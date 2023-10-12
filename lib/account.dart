@@ -32,7 +32,7 @@ void main() {
                   Column(
                     children: [
                       ClipOval(
-                      child: Image.asset("assets/img/anibal.png",fit:BoxFit.cover,height: 100,width: 100,)),
+                      child: Image.asset("assets/img/avatar.jpg",fit:BoxFit.cover,height: 100,width: 100,)),
                       
                     ],
                   ),
